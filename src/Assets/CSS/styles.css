@@ -1,0 +1,40 @@
+.input-section,
+.title-section {
+  text-align: center;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.container {
+  margin-top: 100px;
+  width: 450px;
+  padding-bottom: 15px;
+}
+.title-section .title {
+  font-family: "Baloo 2";
+  font-size: 24px;
+  font-weight: 800;
+}
+.subtitle-section .subtitle{
+  font-family: "Baloo 2";
+  font-size: 20px;
+  text-align: center;
+}
+.link-section{
+  padding: 20px;
+}
+.link-section .link-text {
+  font-family: "Baloo 2";
+  font-size: 24px;
+}
+.button-section .btn-link{
+  font-family: "Baloo 2";
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.button-section .btn-link:hover{
+  color: #f1f2f6;
+}
