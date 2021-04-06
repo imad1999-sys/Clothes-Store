@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .landing-page {
   width: 100%;
   height: 100vh;
@@ -160,3 +161,25 @@
   color: #f1f2f6;
 >>>>>>> origin/clothes-2
 }
+=======
+.link , .copyright-link{
+    text-decoration: none;
+    font-family: "Baloo 2";
+}
+.about-us-text  , .copyright{
+    font-family: "Baloo 2";
+    font-size: 20px;
+}
+.icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.copyright .copyright-link{
+    margin-left: 5px;
+}
+.text-capitalize{
+   font-family: "Baloo 2";
+   font-size: 28px; 
+   color: #2c3e50;
+}
+>>>>>>> origin/clothes-3

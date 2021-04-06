@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import SplashScreen from "./Pages/SplashScreen/index.jsx";
 
 
@@ -17,5 +18,14 @@ const app = () =>  {
     </div>
   );
 }
+=======
+import BaseFooter from "./Base/BaseFooter";
+
+const app = () => {
+  return <div>
+    <BaseFooter />
+  </div>;
+};
+>>>>>>> origin/clothes-3
 
 export default app;
