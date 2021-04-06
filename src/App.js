@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import SplashScreen from "./Pages/SplashScreen/index.jsx";
 
 
@@ -16,6 +17,13 @@ const app = () =>  {
     <div>
       <SignupPage />
 >>>>>>> origin/clothes-2
+=======
+import MainPage from "./Pages/MainPage/index.jsx";
+const app = () => {
+  return (
+    <div>
+      <MainPage />
+>>>>>>> origin/clothes-5
     </div>
   );
 }
