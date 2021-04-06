@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import SplashScreen from "./Pages/SplashScreen/index.jsx";
 
 
@@ -27,5 +28,16 @@ const app = () => {
   </div>;
 };
 >>>>>>> origin/clothes-3
+=======
+import BaseNavbar from "./Base/BaseNavbar";
+
+const app = () => {
+  return (
+    <div>
+      <BaseNavbar />
+    </div>
+  );
+};
+>>>>>>> origin/clothes-4
 
 export default app;
