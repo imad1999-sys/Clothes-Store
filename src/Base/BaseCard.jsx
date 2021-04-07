@@ -1,6 +1,5 @@
 import React from "react";
 import "../Assets/CSS/styles.css";
-import man from "../Assets/Images/man.jpg";
 import TshirtIcon from "../Icons/TshirtIcon.jsx";
 const baseCard = (props) => {
   return (

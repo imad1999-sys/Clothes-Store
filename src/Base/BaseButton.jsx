@@ -1,6 +1,6 @@
 import React from "react";
 import "../Assets/CSS/styles.css"
-
+import {Link} from "react-router-dom";
 
 
 
@@ -8,9 +8,9 @@ const baseButton = (props) => {
     return (
       <div className="button-section">
         <div class="d-grid gap-2 col-6 mx-auto">
-          <a href="#" class="btn btn-outline-primary btn-link" type="button">
+          <Link to={props.link} class="btn btn-outline-primary btn-link" type="button">
             {props.icon} {props.text}
-          </a>
+          </Link>
         </div>
       </div>
     );

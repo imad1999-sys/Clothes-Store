@@ -12,7 +12,7 @@ import "../Assets/CSS/styles.css";
 const baseFooter = () => {
   return (
     <div className="bg-light text-dark pt-5 pb-4 ">
-      <div className="container text-center text-md-left">
+      <div className="footer-container text-center text-md-left">
         <div className="row text-center text-md-left">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-capitalize mb-4 font-weight-bold">

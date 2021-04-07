@@ -19,16 +19,16 @@ export default class LoginPage extends Component {
             <PageTitle title="Sign in" />
           </div>
           <div className="row">
-            <BaseInput label="Username: " type="text"/>
+            <BaseInput label="Username: " type="text" />
           </div>
           <div className="row">
-            <BaseInput label="Password: " type="password"/>
+            <BaseInput label="Password: " type="password" />
           </div>
           <div className="row">
-            <BaseButton icon={<SigninIcon />} text="Sign in" />
+            <BaseButton icon={<SigninIcon />} text="Sign in" link="/home" />
           </div>
           <div className="row">
-            <RegisterLink />
+            <RegisterLink link="/signup" />
           </div>
         </Paper>
       </div>
