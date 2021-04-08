@@ -1,0 +1,131 @@
+/* start women page style */
+.card {
+  position: relative;
+  display: flex;
+  min-width: 0px;
+  flex-direction: column;
+  word-wrap: break-word;
+  background: #e17055;
+  background-clip: border-box;
+  border: 1px solid #e17055;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #fab1a0;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+.card:hover::before {
+  top: -70%;
+  transform: skewY(390deg);
+}
+.card::after {
+  content: "Clothes";
+  font-family: "Baloo 2";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.1);
+}
+.card .card-image {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+.card .card-image .image {
+  max-width: 100%;
+  transition: 0.5s;
+}
+.card:hover .card-image .image {
+  max-width: 80%;
+}
+.card .content-box {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+.card .content-box .btn {
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-family: "Baloo 2";
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+.card .content-box .btn-outline-danger {
+  border-color: #d63031;
+}
+.card .content-box .btn-outline-danger:hover {
+  background-color: #d63031;
+}
+.card .content-box .card-title {
+  font-family: "Baloo 2";
+}
+.card:hover {
+  border: 3px solid #b33939;
+  border-radius: 1.50rem;
+}
+.card:hover .content-box .btn {
+  opacity: 1;
+  top: 0px;
+}
+.icon {
+  margin-right: 5px;
+}
+@media (max-width: 576px) {
+  .women-clothes-container {
+    padding: 50px;
+  }
+}
+@media (min-width: 576px) {
+  .women-clothes-container {
+    padding: 45px;
+  }
+}
+@media (min-width: 768px) {
+  .women-clothes-container {
+    padding: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .women-clothes-container {
+    padding: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .women-clothes-container {
+    padding: 30px;
+  }
+}
+.page-title-section .title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Baloo 2';
+  font-size: 30px;
+  font-weight: 700px;
+}
+/*end women page style*/
