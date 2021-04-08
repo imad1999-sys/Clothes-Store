@@ -8,12 +8,13 @@ import Suits from "../../../Assets/Images/Suit.jpg";
 import Glasses from "../../../Assets/Images/Glasses.jpg";
 import Sport from "../../../Assets/Images/Sport.jpg";
 import Shoes from "../../../Assets/Images/Shoes.jpg";
+import Underwears from "../../../Assets/Images/underwear.png";
 import "../../../Assets/CSS/styles.css";
 const gridOfClothesCategories = () => {
   return (
     <div className="clothes-container">
-      <div className="row">
-        <div className="col-sm">
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="col">
           <BaseCard2
             image={Jackets}
             title="Jackets"
@@ -21,33 +22,33 @@ const gridOfClothesCategories = () => {
             linkText="Show Details"
           />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2 image={Shirts} title="Shirts" linkText="Show Details" />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2 image={Pants} title="Pants" linkText="Show Details" />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2
             image={Accessoires}
             title="Accessoires"
             linkText="Show Details"
           />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2 image={Suits} title="Suits" linkText="Show Details" />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2 image={Glasses} title="Glasses" linkText="Show Details" />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2 image={Sport} title="Sport" linkText="Show Details" />
         </div>
-        <div className="col-sm">
+        <div className="col">
           <BaseCard2 image={Shoes} title="Shoes" linkText="Show Details" />
         </div>
-        <div className="col-sm">
-          <BaseCard2 image={Shoes} title="Underwears" linkText="Show Details" />
+        <div className="col">
+          <BaseCard2 image={Underwears} title="Underwears" linkText="Show Details" />
         </div>
       </div>
     </div>
