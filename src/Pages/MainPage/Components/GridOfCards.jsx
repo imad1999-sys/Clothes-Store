@@ -9,7 +9,7 @@ import "../../../Assets/CSS/styles.css";
 const gridOfCards = () => {
     return (
       <div className="cards-section">
-        <div className="row">
+        <div className="row row-cols-1 row-cols-md-3 g-4">
           <div className="col">
             <BaseCard
               image={man}
@@ -22,6 +22,7 @@ const gridOfCards = () => {
               image={woman}
               title="Women Fashion"
               linkText="Check women fashion"
+              link="/women"
             />
           </div>
           <div className="col">
