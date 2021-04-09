@@ -23,6 +23,7 @@ const gridOfCards = () => {
               image={woman}
               title="Women Fashion"
               linkText="Check women fashion"
+              link="/women"
             />
           </div>
           <div className="col">
