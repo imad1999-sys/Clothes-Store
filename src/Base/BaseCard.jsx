@@ -1,6 +1,7 @@
 import React from "react";
 import "../Assets/CSS/styles.css";
 import TshirtIcon from "../Icons/TshirtIcon.jsx";
+import {Link} from "react-router-dom"
 const baseCard = (props) => {
   return (
     <div className="card">
@@ -9,9 +10,9 @@ const baseCard = (props) => {
       </div>
       <div className="content-box">
         <h2 className="card-title">{props.title}</h2>
-        <a href="#" type="button" class="btn btn-outline-danger btn-lg">
+        <Link to={props.link} type="button" class="btn btn-outline-danger btn-lg">
           <TshirtIcon /> {props.linkText}
-        </a>
+        </Link>
       </div>
     </div>
   );
