@@ -31,6 +31,7 @@ const gridOfCards = () => {
               image={boy}
               title="Boys Fashion"
               linkText="Check boys fashion"
+              link="/boys"
             />
           </div>
           <div className="col">
