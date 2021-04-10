@@ -355,6 +355,18 @@
 }
 /*end baseinput style */
 
+.form-input:not(:placeholder-shown).form-input:not(:focus)
+  + .input-section
+  .form-label {
+  top: -0.5rem;
+  left: 0.8rem;
+  font-size: 13px;
+  font-weight: 500;
+  z-index: 10;
+}
+/*end baseinput style */
+
+/* styles girls page start */
 .card {
   position: relative;
   display: flex;
@@ -456,7 +468,8 @@
   .clothes-container,
   .cards-section,
   .women-clothes-container,
-  .boys-clothes-container {
+  .boys-clothes-container ,
+  .girls-clothes-container  {
     padding: 50px;
   }
 }
@@ -464,7 +477,8 @@
   .clothes-container,
   .cards-section,
   .women-clothes-container,
-  .boys-clothes-container {
+  .boys-clothes-container,
+  .girls-clothes-container {
     padding: 45px;
   }
 }
@@ -472,7 +486,8 @@
   .clothes-container,
   .cards-section,
   .women-clothes-container,
-  .boys-clothes-container {
+  .boys-clothes-container,
+  .girls-clothes-container  {
     padding: 40px;
   }
 }
@@ -480,7 +495,8 @@
   .women-clothes-container,
   .cards-section,
   .clothes-container,
-  .boys-clothes-container {
+  .boys-clothes-container,
+  .girls-clothes-container {
     padding: 35px;
   }
 }
@@ -488,7 +504,8 @@
   .clothes-container,
   .cards-section,
   .women-clothes-container,
-  .boys-clothes-container {
+  .boys-clothes-container, 
+  .girls-clothes-container {
     padding: 30px;
   }
 }
@@ -499,3 +516,5 @@
   font-size: 30px;
   font-weight: 700px;
 }
+/* styles girls page end */
+

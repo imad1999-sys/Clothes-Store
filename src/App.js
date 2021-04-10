@@ -6,6 +6,7 @@ import MainPage from "./Pages/MainPage/index.jsx";
 import WomenPage from "./Pages/WomenPage/index.jsx";
 import BoysPage from "./Pages/BoysPage/index.jsx";
 import MenPage from "./Pages/MenPage/index.jsx";
+import GirlsPage from "./Pages/GirlsPage/index.jsx";
 import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 
 const app = () => {
@@ -19,6 +20,7 @@ const app = () => {
         <Route exact path="/men" component={MenPage} />
         <Route exact path="/women" component={WomenPage} />
         <Route exact path="/boys" component={BoysPage} />
+        <Route exact path="/girls" component={GirlsPage} />
       </Router>
     </div>
   );

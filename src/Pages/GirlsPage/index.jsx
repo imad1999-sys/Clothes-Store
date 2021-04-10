@@ -3,16 +3,16 @@ import PageTitle from "./Components/PageTitle.jsx";
 import GridOfClothesCategories from "./Components/GridOfClothesCategories.jsx";
 import BaseNavbar from "../../Base/BaseNavbar.jsx";
 import BaseFooter from "../../Base/BaseFooter.jsx";
-export default class BoysPage extends Component {
+export default class GirlsPage extends Component {
   render() {
     return (
       <div>
         <div className="row">
           <BaseNavbar />
         </div>
-        <div className="boys-page-container">
+        <div className="girls-page-container">
           <div className="row">
-            <PageTitle title="Boys Fashion" />
+            <PageTitle title="Girls Fashion" />
           </div>
           <div className="row">
             <GridOfClothesCategories />
