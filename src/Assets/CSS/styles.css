@@ -75,12 +75,12 @@
   opacity: 0;
 }
 .page-content .page-link:hover,
-.card-link:hover {
+.base-card-link:hover {
   color: #2d3436;
   text-decoration: none;
 }
 .page-content .page-link::before,
-.card-link::before {
+.base-card-link::before {
   content: "";
   position: absolute;
   left: 0;
@@ -96,7 +96,7 @@
   transform: scaleX(0);
 }
 .page-content .page-link:hover::before,
-.card-link:hover::before {
+.base-card-link:hover::before {
   transform: scaleX(1);
 }
 @keyframes anim {
@@ -367,7 +367,7 @@
 /*end baseinput style */
 
 /* styles girls page start */
-.card {
+.base-card {
   position: relative;
   display: flex;
   min-width: 0px;
@@ -379,7 +379,7 @@
   border-radius: 0.75rem;
   overflow: hidden;
 }
-.card::before {
+.base-card::before {
   content: "";
   position: absolute;
   top: -50%;
@@ -389,12 +389,12 @@
   transform: skewY(345deg);
   transition: 0.5s;
 }
-.card:hover::before {
+.base-card:hover::before {
   top: -70%;
   transform: skewY(390deg);
 }
-.card::after {
-  content: "Clothes";
+.base-card::after {
+  content: "I&M";
   font-family: "Baloo 2";
   position: absolute;
   bottom: 0;
@@ -403,7 +403,7 @@
   font-size: 5rem;
   color: rgba(0, 0, 0, 0.1);
 }
-.card .card-image {
+.base-card .base-card-image {
   position: relative;
   width: 100%;
   margin-top: 20px;
@@ -413,14 +413,14 @@
   padding-top: 20px;
   z-index: 1;
 }
-.card .card-image .image {
+.base-card .base-card-image .image {
   max-width: 100%;
   transition: 0.5s;
 }
-.card:hover .card-image .image {
+.base-card:hover .base-card-image .image {
   max-width: 80%;
 }
-.card .content-box {
+.base-card .content-box {
   position: relative;
   padding: 20px;
   display: flex;
@@ -429,7 +429,7 @@
   flex-direction: column;
   z-index: 1;
 }
-.card .content-box .btn {
+.base-card .content-box .btn {
   position: relative;
   top: 200px;
   opacity: 0;
@@ -444,20 +444,20 @@
   letter-spacing: 1px;
   transition: 0.5s;
 }
-.card .content-box .btn-outline-danger {
+.base-card .content-box .btn-outline-danger {
   border-color: #d63031;
 }
-.card .content-box .btn-outline-danger:hover {
+.base-card .content-box .btn-outline-danger:hover {
   background-color: #d63031;
 }
-.card .content-box .card-title {
+.base-card .content-box .base-card-title {
   font-family: "Baloo 2";
 }
-.card:hover {
+.base-card:hover {
   border: 3px solid #b33939;
   border-radius: 1.5rem;
 }
-.card:hover .content-box .btn {
+.base-card:hover .content-box .btn {
   opacity: 1;
   top: 0px;
 }
@@ -466,7 +466,7 @@
 }
 @media (max-width: 576px) {
   .clothes-container,
-  .cards-section,
+  .base-cards-section,
   .women-clothes-container,
   .boys-clothes-container ,
   .girls-clothes-container  {
@@ -475,7 +475,7 @@
 }
 @media (min-width: 576px) {
   .clothes-container,
-  .cards-section,
+  .base-cards-section,
   .women-clothes-container,
   .boys-clothes-container,
   .girls-clothes-container {
@@ -484,7 +484,7 @@
 }
 @media (min-width: 768px) {
   .clothes-container,
-  .cards-section,
+  .base-cards-section,
   .women-clothes-container,
   .boys-clothes-container,
   .girls-clothes-container  {
@@ -493,7 +493,7 @@
 }
 @media (min-width: 992px) {
   .women-clothes-container,
-  .cards-section,
+  .base-cards-section,
   .clothes-container,
   .boys-clothes-container,
   .girls-clothes-container {
@@ -502,7 +502,7 @@
 }
 @media (min-width: 1200px) {
   .clothes-container,
-  .cards-section,
+  .base-cards-section,
   .women-clothes-container,
   .boys-clothes-container, 
   .girls-clothes-container {
