@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Assets/CSS/styles.css";
+import SearchIcon from "../Icons/SearchIcon.jsx";
 const BaseAutocompleteForm = () => {
   const [data, setData] = useState([]);
   const search = async (key) => {

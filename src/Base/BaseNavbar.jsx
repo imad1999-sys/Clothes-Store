@@ -1,9 +1,8 @@
 import React from "react";
 import Logo from "../Assets/Images/logo.png";
 import Home from "../Icons/HomeIcon.jsx";
-import Bookmarks from "../Icons/BookmarkIcon.jsx";
-import Location from "../Icons/LocationIcon.jsx";
-import Logout from "../Icons/LogoutIcon.jsx";
+import ChartIcon from "../Icons/ChartIcon.jsx";
+import {Link} from "react-router-dom";
 import Account from "../Icons/AccountIcon.jsx";
 import AutoCompleteForm from "../Base/BaseAutocompleteForm.jsx";
 const baseNavbar = () => {
@@ -27,52 +26,26 @@ const baseNavbar = () => {
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">
+                <Link to="/home" class="nav-link" aria-current="page">
                   <Home /> Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <Bookmarks /> Bookmarks
-                </a>
+                <Link to="/home" class="nav-link" aria-current="page">
+                  <ChartIcon /> Dashboard
+                </Link>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarScrollingDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+              <li class="nav-item">
+                <Link
+                  to="/account"
+                  type="button"
+                  class="nav-link"
+                  tabindex="-1"
+                  aria-disabled="true"
                 >
-                  <Location /> Languages
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarScrollingDropdown"
-                >
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      English
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Arabic
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
-                  <Logout /> Logout
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
                   <Account />
                   Account
-                </a>
+                </Link>
               </li>
             </ul>
             <AutoCompleteForm />

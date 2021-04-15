@@ -176,13 +176,6 @@
   font-family: "Baloo 2";
   font-size: 20px;
 }
-.icon {
-  margin-right: 10px;
-  font-size: 20px;
-}
-.copyright .copyright-link {
-  margin-left: 5px;
-}
 .text-capitalize {
   font-family: "Baloo 2";
   font-size: 28px;
@@ -222,7 +215,6 @@
   width: 360px;
   height: 100%;
   font-size: 15px;
-  margin-right: 3rem;
   border: 1px solid #ffffff;
   border-radius: 0.5rem;
   outline: none;
@@ -468,9 +460,18 @@
   .clothes-container,
   .base-cards-section,
   .women-clothes-container,
-  .boys-clothes-container ,
-  .girls-clothes-container  {
+  .boys-clothes-container,
+  .girls-clothes-container,
+  .favorites-tab-container,
+  .my-items-container,
+  .main-page-container {
     padding: 50px;
+  }
+  .account-page-navs-container {
+    padding: 24px;
+  }
+  .input-section .form-input{
+    width: 200px;
   }
 }
 @media (min-width: 576px) {
@@ -478,8 +479,17 @@
   .base-cards-section,
   .women-clothes-container,
   .boys-clothes-container,
-  .girls-clothes-container {
+  .girls-clothes-container,
+  .favorites-tab-container,
+  .my-items-container,
+  .main-page-container {
     padding: 45px;
+  }
+  .account-page-navs-container {
+    padding: 22px;
+  }
+  .input-section .form-input{
+    width: 200px;
   }
 }
 @media (min-width: 768px) {
@@ -487,8 +497,17 @@
   .base-cards-section,
   .women-clothes-container,
   .boys-clothes-container,
-  .girls-clothes-container  {
+  .girls-clothes-container,
+  .favorites-tab-container,
+  .my-items-container,
+  .main-page-container {
     padding: 40px;
+  }
+  .account-page-navs-container {
+    padding: 20px;
+  }
+  .input-section .form-input{
+    width: 250px;
   }
 }
 @media (min-width: 992px) {
@@ -496,17 +515,32 @@
   .base-cards-section,
   .clothes-container,
   .boys-clothes-container,
-  .girls-clothes-container {
+  .girls-clothes-container,
+  .favorites-tab-container,
+  .my-items-container,
+  .main-page-container {
     padding: 35px;
+  }
+  .account-page-navs-container {
+    padding: 18px;
+  }
+  .input-section .form-input{
+    width: 350px;
   }
 }
 @media (min-width: 1200px) {
   .clothes-container,
   .base-cards-section,
   .women-clothes-container,
-  .boys-clothes-container, 
-  .girls-clothes-container {
+  .boys-clothes-container,
+  .girls-clothes-container,
+  .favorites-tab-container,
+  .my-items-container,
+  .main-page-container {
     padding: 30px;
+  }
+  .account-page-navs-container {
+    padding: 17px;
   }
 }
 .page-title-section .title {
@@ -515,6 +549,23 @@
   font-family: "Baloo 2";
   font-size: 30px;
   font-weight: 700px;
+  padding: 10px;
 }
 /* styles girls page end */
 
+
+/* styles account page */
+.nav-link{
+  font-family: 'Baloo 2';
+  font-weight: 800;
+}
+.list-group-item{
+  font-family: 'Baloo 2';
+  font-weight: 500;
+}
+.logout-section{
+  padding: 12px;
+}
+.logout-section .button-logout{
+  font-family: 'Baloo 2';
+}

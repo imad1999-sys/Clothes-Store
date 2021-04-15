@@ -11,7 +11,7 @@ const baseCard = (props) => {
       <div className="content-box">
         <h2 className="card-title">{props.title}</h2>
         <Link
-          to={props.link}
+          to="/men"
           type="button"
           class="btn btn-outline-danger btn-lg"
         >

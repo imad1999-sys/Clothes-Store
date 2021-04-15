@@ -15,9 +15,7 @@ const baseFooter = () => {
       <div className="footer-container text-center text-md-left">
         <div className="row text-center text-md-left">
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 className="text-capitalize mb-4 font-weight-bold">
-              About Us
-            </h5>
+            <h5 className="text-capitalize mb-4 font-weight-bold">About Us</h5>
             <hr className="mb-4" />
             <p className="about-us-text">
               Lorem ipsum is placeholder text commonly used in the graphic,
@@ -81,9 +79,7 @@ const baseFooter = () => {
           </div>
 
           <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 className="text-capitalize mb-4 font-weight-bold">
-              Contact
-            </h5>
+            <h5 className="text-capitalize mb-4 font-weight-bold">Contact</h5>
             <hr className="mb-4" />
             <p>
               <a href="#" className="text-dark link">
@@ -107,12 +103,10 @@ const baseFooter = () => {
             </p>
           </div>
 
-          <hr className="mb-4" />
-
           <div className="row d-flex justify-content-center">
             <div>
               <p className="copyright">
-                  Copyright 2021 All Rights Reserved By:
+                Copyright 2021 All Rights Reserved By:
                 <a href="#" className="copyright-link">
                   I & M
                 </a>
