@@ -31,7 +31,7 @@ const baseNavbar = () => {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link to="/home" class="nav-link" aria-current="page">
+                <Link to="/login-admin" class="nav-link" aria-current="page">
                   <ChartIcon /> Dashboard
                 </Link>
               </li>

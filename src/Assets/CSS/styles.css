@@ -138,10 +138,11 @@
   width: 450px;
   padding-bottom: 15px;
 }
-.title-section .title {
+.title-section .title , .title-admin-section .title-admin {
   font-family: "Baloo 2";
   font-size: 24px;
   font-weight: 800;
+  text-align: center;
 }
 .subtitle-section .subtitle {
   font-family: "Baloo 2";
@@ -470,9 +471,6 @@
   .account-page-navs-container {
     padding: 24px;
   }
-  .input-section .form-input{
-    width: 200px;
-  }
 }
 @media (min-width: 576px) {
   .clothes-container,
@@ -487,9 +485,6 @@
   }
   .account-page-navs-container {
     padding: 22px;
-  }
-  .input-section .form-input{
-    width: 200px;
   }
 }
 @media (min-width: 768px) {
@@ -506,9 +501,6 @@
   .account-page-navs-container {
     padding: 20px;
   }
-  .input-section .form-input{
-    width: 250px;
-  }
 }
 @media (min-width: 992px) {
   .women-clothes-container,
@@ -523,9 +515,6 @@
   }
   .account-page-navs-container {
     padding: 18px;
-  }
-  .input-section .form-input{
-    width: 350px;
   }
 }
 @media (min-width: 1200px) {
