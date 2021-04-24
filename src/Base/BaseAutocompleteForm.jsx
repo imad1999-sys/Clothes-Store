@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../Assets/CSS/styles.css";
 import SearchIcon from "../Icons/SearchIcon.jsx";
-const BaseAutocompleteForm = () => {
+const BaseAutocompleteForm = (props) => {
   const [data, setData] = useState([]);
   const search = async (key) => {
     console.warn(key);
@@ -11,24 +11,10 @@ const BaseAutocompleteForm = () => {
     console.warn(result);
   };
   return (
-    <form class="d-flex form">
-      <div className="form-div">
-        <input
-          class="form-input me-2"
-          list="datalistOptions"
-          id="exampleDataList"
-          onChange={(e) => search(e.target.value)}
-        />
-        <label for="" className="form-label">
-          Search
-        </label>
-        <datalist className=" list-auto" id="datalistOptions">
-          {data.map((key) => (
-            <option value={key.name} />
-          ))}
-        </datalist>
-      </div>
-    </form>
+    <div className="auto-complete-form">
+      <input type={props.type} id="search" autoComplete="off" className="auto-form-input" placeholder=" "/>
+      <label className="auto-form-label" for="search">{props.label}</label>
+    </div>
   );
 };
 export default BaseAutocompleteForm;

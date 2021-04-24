@@ -28,7 +28,6 @@ const app = () => {
         <Route exact path="/boys" component={BoysPage} />
         <Route exact path="/girls" component={GirlsPage} />
         <Route exact path="/account" component={AccountPage} />
-        <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/add-category" component={AddCategory} />
         <Route exact path="/update-page/:id" component={UpdatePage} />
         <Route exact path="/login-admin" component={LoginAdmin} />

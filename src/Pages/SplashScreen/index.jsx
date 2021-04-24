@@ -4,7 +4,7 @@ import SigninIcon from "../../Icons/SigninIcon.jsx";
 import {Link} from "react-router-dom";
 const splashScreen = () => {
   return (
-    <div className="landing-page">
+   <div className="landing-page">
       <div className="page-content">
         <h1>Welcome to I&M store</h1>
         <p>
@@ -15,7 +15,7 @@ const splashScreen = () => {
           </Link>
         </p>
       </div>
-    </div>
+    </div> 
   );
 };
 export default splashScreen;
