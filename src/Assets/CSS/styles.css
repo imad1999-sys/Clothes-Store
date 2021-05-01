@@ -254,7 +254,7 @@
   padding: 0 0.5rem;
   color: white;
   cursor: text;
-  transition: top 200ms ease-in ,  left 200ms ease-in ,  font-size 200ms ease-in;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
   background-color: #2c3a47;
 }
 .auto-form-input:focus ~ .auto-form-label,
@@ -301,12 +301,11 @@
   font-family: "Baloo 2";
   color: black;
   cursor: text;
-  transition: top 200ms ease-in ,  left 200ms ease-in ,  font-size 200ms ease-in;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
   background-color: #ffffff;
 }
 .auto-input:focus ~ .auto-label,
-.auto-input:not(:placeholder-shown).auto-input:not(:focus)
-  ~ .auto-label {
+.auto-input:not(:placeholder-shown).auto-input:not(:focus) ~ .auto-label {
   top: -0.5rem;
   font-size: 0.8rem;
   left: 0.8rem;
@@ -510,4 +509,77 @@
 }
 .logout-section .button-logout {
   font-family: "Baloo 2";
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 40%;
+  }
+  .navbar-brand {
+    margin-left: 36%;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 40%;
+  }
+  .navbar-brand {
+    margin-left: 36%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 45%;
+  }
+  .navbar-brand {
+    margin-left: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 50%;
+  }
+  .navbar-brand {
+    margin-left: 46%;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 0%;
+  }
+  .navbar-brand {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-nav .nav-item .nav-link {
+    margin-left: 0%;
+  }
+  .navbar-brand {
+    margin-left: 0%;
+  }
+}
+
+.bar-icon {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.auto-error{
+  color: red;
+  font-family: "Baloo 2";
+  font-size: 15px;
+  padding: 10px 30px;
+}
+.spinner-section{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
 }

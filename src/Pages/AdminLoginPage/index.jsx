@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component , useState , useEffect } from "react";
 import Paper from "@material-ui/core/Paper";
 import "../../Assets/CSS/styles.css";
 import AdminImage from "./Components/AdminImage.jsx";
@@ -8,8 +8,7 @@ import Title from "./Components/Title.jsx";
 import BaseInput from "../../Base/BaseInput.jsx";
 import BaseButton from "../../Base/BaseButton.jsx";
 import SignupLink from "./Components/SignupLink.jsx";
-export default class AdminLoginPage extends Component {
-  render() {
+const AdminLoginPage = () => {
     return (
       <div className="container">
         <Paper elevation={10}>
@@ -38,5 +37,5 @@ export default class AdminLoginPage extends Component {
         </Paper>
       </div>
     );
-  }
 }
+export default AdminLoginPage;

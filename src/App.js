@@ -32,6 +32,9 @@ const app = () => {
         <Route exact path="/update-page/:id" component={UpdatePage} />
         <Route exact path="/login-admin" component={LoginAdmin} />
         <Route exact path="/signup-admin" component={SignupAdmin} />
+        <Route exact path="/dashboard" component={Dashboard} />
+        <Route exact path="/add-category" component={AddCategory} />
+        <Route exact path="/update-page/:id" component={UpdatePage} />
       </Router>
       {/* <Router>
         <Route exact path="/" component={Dashboard} />
