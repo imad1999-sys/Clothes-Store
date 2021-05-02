@@ -18,40 +18,72 @@ const gridOfClothesCategories = () => {
           <BaseCard
             image={Jackets}
             title="Jackets"
-            link="men/jackets"
+            link="/content"
             linkText="Show Details"
           />
         </div>
         <div className="col">
-          <BaseCard image={Shirts} title="Shirts" linkText="Show Details" />
+          <BaseCard
+            image={Shirts}
+            title="Shirts"
+            link="/content"
+            linkText="Show Details"
+          />
         </div>
         <div className="col">
-          <BaseCard image={Pants} title="Pants" linkText="Show Details" />
+          <BaseCard
+            image={Pants}
+            title="Pants"
+            link="/content"
+            linkText="Show Details"
+          />
         </div>
         <div className="col">
           <BaseCard
             image={Accessoires}
             title="Accessoires"
             linkText="Show Details"
+            link="/content"
           />
         </div>
         <div className="col">
-          <BaseCard image={Suits} title="Suits" linkText="Show Details" />
+          <BaseCard
+            image={Suits}
+            title="Suits"
+            link="/content"
+            linkText="Show Details"
+          />
         </div>
         <div className="col">
-          <BaseCard image={Glasses} title="Glasses" linkText="Show Details" />
+          <BaseCard
+            image={Glasses}
+            title="Glasses"
+            link="/content"
+            linkText="Show Details"
+          />
         </div>
         <div className="col">
-          <BaseCard image={Sport} title="Sport" linkText="Show Details" />
+          <BaseCard
+            image={Sport}
+            title="Sport"
+            link="/content"
+            linkText="Show Details"
+          />
         </div>
         <div className="col">
-          <BaseCard image={Shoes} title="Shoes" linkText="Show Details" />
+          <BaseCard
+            image={Shoes}
+            title="Shoes"
+            link="/content"
+            linkText="Show Details"
+          />
         </div>
         <div className="col">
           <BaseCard
             image={Underwears}
             title="Underwears"
             linkText="Show Details"
+            link="/content"
           />
         </div>
       </div>

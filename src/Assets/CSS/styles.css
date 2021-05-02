@@ -407,6 +407,10 @@
   opacity: 1;
   top: 0px;
 }
+.base-card .content-box .card-price , .base-card .content-box .card-text{
+  font-family: 'Baloo 2';
+  font-size: 18px;
+}
 .icon {
   margin-right: 5px;
 }
@@ -418,7 +422,8 @@
   .girls-clothes-container,
   .favorites-tab-container,
   .my-items-container,
-  .main-page-container {
+  .main-page-container,
+  .grid-of-content-section {
     padding: 50px;
   }
   .account-page-navs-container {
@@ -433,7 +438,8 @@
   .girls-clothes-container,
   .favorites-tab-container,
   .my-items-container,
-  .main-page-container {
+  .main-page-container,
+  .grid-of-content-section {
     padding: 45px;
   }
   .account-page-navs-container {
@@ -448,7 +454,8 @@
   .girls-clothes-container,
   .favorites-tab-container,
   .my-items-container,
-  .main-page-container {
+  .main-page-container,
+  .grid-of-content-section {
     padding: 40px;
   }
   .account-page-navs-container {
@@ -463,7 +470,8 @@
   .girls-clothes-container,
   .favorites-tab-container,
   .my-items-container,
-  .main-page-container {
+  .main-page-container,
+  .grid-of-content-section {
     padding: 35px;
   }
   .account-page-navs-container {
@@ -478,7 +486,8 @@
   .girls-clothes-container,
   .favorites-tab-container,
   .my-items-container,
-  .main-page-container {
+  .main-page-container,
+  .grid-of-content-section {
     padding: 30px;
   }
   .account-page-navs-container {

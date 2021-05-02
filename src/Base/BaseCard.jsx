@@ -10,11 +10,9 @@ const baseCard = (props) => {
       </div>
       <div className="content-box">
         <h2 className="card-title">{props.title}</h2>
-        <Link
-          to="/men"
-          type="button"
-          class="btn btn-outline-danger btn-lg"
-        >
+        <p className="card-text">{props.text}</p>
+        <p className="card-price">{props.price}</p>
+        <Link to={props.link} type="button" class="btn btn-outline-danger btn-lg">
           <TshirtIcon /> {props.linkText}
         </Link>
       </div>
